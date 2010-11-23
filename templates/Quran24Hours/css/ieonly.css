@@ -1,0 +1,25 @@
+/* IE ONLY CSS */
+
+#leftcolumn{
+	margin-left:5px;
+	padding:0px;
+	width:205px;
+	float:left;
+}
+#rightcolumn{
+	margin-right:5px;
+	padding:0px;
+	width:205px;
+	float:right;
+}
+.box1, .box2, .box3, .box4{
+	margin:15px 4px 10px 5px;
+}
+div#main_top table.contentpaneopen{
+	float:none;
+}
+#f_area div.moduletable, #f_area div.moduletable_menu{
+	float: left;
+	margin:10px 4px 10px 4px;
+	width: 234px;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*** blue ***/
+a:link, a:visited {
+	color: #C83D07;
+	text-decoration:underline;
+}
+
+a:hover {
+	color: #C83D07;
+	text-decoration:none;
+}
+
+
+#topnav{ background: #C83D07 url(../images/red/top_menu_bg.png) top repeat-x; }
+#topnav ul li a:hover{ background: #F3580C; color:#FFF; }
+#topnav ul li a.active{ background: #F3580C; }
+#topnav ul li li { background: #F3580C; KHTMLOpacity: 0.90; MozOpacity: 0.90; opacity: 0.90; }
+#topnav ul li li a:hover{ background: #C83D07; filter: alpha(opacity:90); KHTMLOpacity: 0.90; MozOpacity: 0.90; opacity: 0.90; }
+
+
+#date{
+	background: url(../images/red/menu_right.png) top right no-repeat;
+}
+#leftcolumn h3,
+#rightcolumn h3{
+	text-align: left;
+	padding-left:15px;
+	height: 44px;
+	width: 190px;
+	line-height: 40px;
+	color:#FFFFFF;
+	font-size:16px;
+	margin:0px;
+	font-weight:bold;
+	background: #FFFFFF url(../images/red/bg_h3.png) top left;
+}
+
+ul.menu li#current {
+	background:#E8ECF7;
+	border-left:4px solid #0A296E;
+}
+ul.menu li#current a{
+	text-decoration:none;
+	color:#363636;
+	background:#E8ECF7;
+}
+a.readon, a.readon:hover, a.readon:visited{
+	display:block;
+	height:29px;
+	width:114px;
+	color:#FFF;
+	padding-left: 30px;
+	line-height:29px;
+	background:  url(../images/red/bg_read_more.png) top left no-repeat;
+	margin:10px 0px 0px 0px;
+}
+
+#power_by, #power_by a, #power_by a:visited{
+	color:#8c8c8c;
+	text-decoration:none;
+	font-size:11px;
+}
+ul.menu li{
+	list-style:none;
+	background:url(../images/red/menu_arrow.gif) top left no-repeat;
+}
+#f_area div.moduletable_menu, #f_area div.moduletable, #f_area div.moduletable_text{
+	background: url(../images/rub_footer_bottom.png) left bottom no-repeat;
+	
+}
+#f_area h3{
+	background:  url(../images/f_area_h3.png) top left no-repeat;
+}
+
+ul.mostread li{
+	list-style:none;
+	background:url(../images/red/menu_arrow.gif) top left no-repeat;
+}
+ul.latestnews li{
+	list-style:none;
+	background:url(../images/red/menu_arrow.gif) top left no-repeat;
+}
+.moduletable ul li {
+	list-style:none;
+	background:url(../images/red/menu_arrow.gif) top left no-repeat;
+}
