@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>Transparent Custom Skype Status Buttons</name>
+	<author>Paul</author>
+	<creationDate>November 2010</creationDate>
+	<copyright>www.givemeajobsoicanmovetocanada.co.uk</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>paul@givemeajobsoicanmovetocanada.co.uk</authorEmail>
+	<authorUrl>www.givemeajobsoicanmovetocanada.co.uk</authorUrl>
+	<version>1.1</version>
+	<description>I needed a Skype status image without the standard white background, so built this to use transparent png's. Then realised I could actually have a nice customised image if I chose :) This version has the choice of having people 'Chat' or 'Call' you :) I have also added the moduleclass_sfx as requested! </description>    
+	<files>
+        <filename>mod_transparentcustomskypestatusbuttons.xml</filename>
+        <filename module="mod_transparentcustomskypestatusbuttons">mod_transparentcustomskypestatusbuttons.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+	  <filename>tmpl/default.php</filename>
+        <filename>standard/away.png</filename>
+	  <filename>standard/do_not_disturb.png</filename>
+	  <filename>standard/not_available.png</filename>
+	  <filename>standard/offline.png</filename>
+	  <filename>standard/online.png</filename>
+	  <filename>standard/skype_me.png</filename>
+	  <filename>standard/unknown.png</filename>
+	  <filename>speech/away.png</filename>
+	  <filename>speech/do_not_disturb.png</filename>
+	  <filename>speech/not_available.png</filename>
+	  <filename>speech/offline.png</filename>
+	  <filename>speech/online.png</filename>
+	  <filename>speech/skype_me.png</filename>
+	  <filename>speech/unknown.png</filename>
+	  <filename>custom/away.png</filename>
+	  <filename>custom/do_not_disturb.png</filename>
+	  <filename>custom/not_available.png</filename>
+	  <filename>custom/offline.png</filename>
+	  <filename>custom/online.png</filename>
+	  <filename>custom/skype_me.png</filename>
+	  <filename>custom/unknown.png</filename>	
+    </files>
+    <params>
+<param name="moduleclass_sfx" type="text" default="" label="moduleclass_sfx" description="PARAMMODULECLASSSUFFIX" />
+<param name="skype_layout" type="list" default="left" label="Choose Layout Style" description="Choose Left,Right or Centered Positioning">
+			<option value="left">Left</option>
+			<option value="right">Right</option>
+			<option value="center">Center</option>
+	</param>
+<param name="skype_before" type="textarea" default="" label="Text Before Image" rows="3" cols="30" description="Any text you might want before the image. Optional - can include HTML" />
+<param name="skype_images" type="list" default="standard" label="Choose Images Set" description="Choose between the 3 types of image">
+			<option value="standard">Standard</option>
+			<option value="speech">Speech Bubble</option>
+			<option value="custom">Your Customised Images</option>
+	</param>
+<param name="skype_choose" type="list" default="call" label="Choose To Have People Call or Chat" description="Choose To Have People Message you or Talk to you">
+			<option value="call">Call</option>
+			<option value="chat">Chat</option>
+	</param>
+<param name="skype_after" type="textarea" default="" label="Text After Image" rows="3" cols="30" description="Any text you might want after the image. Optional - can include HTML." />
+	  <param name="skype_user" type="text" default="hippynerdywebdude" label="Skype Username" description="Put your Skype ID in here !" />
+    </params>
+</install>
