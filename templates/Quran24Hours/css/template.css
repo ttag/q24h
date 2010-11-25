@@ -89,10 +89,10 @@ div#h_area{
 a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 	font-size:26px;
 	line-height: 58px;
-	color: #777777;
+	color: #cbaa08;
 	text-decoration:none;
 	font-weight:bold;
-	font-family: Georgia, "Times New Roman", Times, serif
+	font-family: Georgia, "Times New Roman", Times, sans-serif
 }
 
 

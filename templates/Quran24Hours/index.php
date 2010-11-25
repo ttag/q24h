@@ -72,8 +72,7 @@ margin-left: 0px;
 </div>
 
 <p id="power_by" align="center">
-	<?php echo JText_('Powered by') ?> <a href="http://www.joomla.org">Joomla!</a>.
-    <?php echo JText_('Valid') ?> <a href="http://validator.w3.org/check/referer">XHTML</a> <?php echo JText::_('and') ?> <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>.
+	<?php echo JText_('© 2010 ') ?> <a href="http://www.Quran24Hours.com">Quran24Hours</a> <?php echo JText_('| All Rights Reserved ') ?>
 </p>
 
 <jdoc:include type="modules" name="debug" />
