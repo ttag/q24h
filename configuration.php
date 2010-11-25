@@ -15,8 +15,8 @@ class JConfig {
 	var $gzip = '0';
 	var $error_reporting = '-1';
 	var $xmlrpc_server = '0';
-	var $log_path = '/var/www/html/joomla_test/logs';
-	var $tmp_path = '/var/www/html/joomla_test/tmp';
+	var $log_path = '/var/www/html/staging/logs';
+	var $tmp_path = '/var/www/html/staging/tmp';
 	var $live_site = '';
 	var $force_ssl = '0';
 	var $offset = '0';
@@ -33,7 +33,7 @@ class JConfig {
 	var $dbtype = 'mysql';
 	var $host = 'localhost';
 	var $user = 'root';
-	var $db = 'joomla_test';
+	var $db = 'q24h_staging';
 	var $dbprefix = 'jos_';
 	var $mailer = 'mail';
 	var $mailfrom = 'admin@admin.com';

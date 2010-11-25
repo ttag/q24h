@@ -19,9 +19,9 @@
 -- Current Database: `joomla_test`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `joomla_test` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `q24h_staging` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `joomla_test`;
+USE `q24h_staging`;
 
 --
 -- Table structure for table `jos_banner`

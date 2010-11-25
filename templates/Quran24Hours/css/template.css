@@ -76,6 +76,7 @@ div#h_area{
 	height: 50px;
 	text-align:left;
 	padding-left:15px;
+	padding-top: 20px;
 }
 
 
@@ -112,6 +113,7 @@ div#main_top{
 	height: 300px;
 }
 
+
 div.banner{ background: #FFFFFF url(../images/banner.jpg) top center no-repeat; }
 div#main_top table.contentpaneopen{
 	padding:0px;
@@ -121,6 +123,8 @@ div#main_top table.contentpaneopen{
 	height:160px;
 	text-align:left;
 	float:left;
+	margin-left: 120px;
+	margin-top: 70px;
 }
 div#main_top table.contentpaneopen td{
 	color:#333333;
