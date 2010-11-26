@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Superb transition slideshow</name>
+	<author>Gopi.R</author>
+	<creationDate>September 2010</creationDate>
+	<copyright>Copyright (C) 2010 - 2010 www.gopiplus.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>gopiplus@yahoo.co.in</authorEmail>
+	<authorUrl>http://www.gopiplus.com/work/</authorUrl>
+	<version>1.0</version>
+	<description>Don’t just display images, showcase them in style using this joomla module.</description>
+	<files>
+		<filename module="mod_superb_transition_slideshow">mod_superb_transition_slideshow.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+    	<filename>tmpl/index.html</filename>
+		<filename>tmpl/default.php</filename>
+	</files>
+	<params>
+		<param name="stg_title" type="text" size="50" default="Superb slideshow" label="Title" description="Title" />
+		<param name="stg_pause" type="text" size="20" default="2000" label="Pause between content change" description="Pause between content change" />
+		<param name="stg_transduration" type="text" size="20" default="5000" label="Duration of transition" description="Duration of transition" />
+		<param name="stg_url1" type="text" size="70" default="http://www.gopiplus.com/work/wp-content/uploads/pluginimages/250x200/250x200_1.jpg" label="Image url 1" description="Enter gallery image url 1" />
+		<param name="stg_url2" type="text" size="70" default="http://www.gopiplus.com/work/wp-content/uploads/pluginimages/250x200/250x200_2.jpg" label="Image url 2" description="Enter gallery image url 2" />
+		<param name="stg_url3" type="text" size="70" default="http://www.gopiplus.com/work/wp-content/uploads/pluginimages/250x200/250x200_3.jpg" label="Image url 3" description="Enter gallery image url 3" />
+		<param name="stg_url4" type="text" size="70" default="http://www.gopiplus.com/work/wp-content/uploads/pluginimages/250x200/250x200_4.jpg" label="Image url 4" description="Enter gallery image url 4" />
+		<param name="stg_url5" type="text" size="70" default="" label="Image url 5" description="Enter gallery image url 5" />
+		<param name="stg_url6" type="text" size="70" default="" label="Image url 6" description="Enter gallery image url 6" />
+		<param name="stg_url7" type="text" size="70" default="" label="Image url 7" description="Enter gallery image url 7" />
+		<param name="stg_url8" type="text" size="70" default="" label="Image url 8" description="Enter gallery image url 8" />
+		<param name="stg_url9" type="text" size="70" default="" label="Image url 9" description="Enter gallery image url 9" />
+		<param name="stg_url10" type="text" size="70" default="" label="Image url 10" description="Enter gallery image url 10" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

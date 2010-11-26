@@ -22,6 +22,9 @@ body, td{
 	font-size: 13px;
 	color: #333;
 	line-height: 1.3em;
+        margin-left: 300px;
+        margin-top: 70px;
+
 }
 
 a:link, a:visited {
@@ -113,6 +116,19 @@ div#main_top{
 	height: 300px;
 }
 
+div#main_top div.woo_class_joomla_1{
+	padding:0px;
+	margin-top:90px;
+	padding-left:10px;
+	width:400px;
+	height:160px;
+	text-align:left;
+	float:left;
+	margin-left: 120px;
+	margin-top: 70px;
+}
+
+
 
 div.banner{ background: #FFFFFF url(../images/banner.jpg) top center no-repeat; }
 div#main_top table.contentpaneopen{
@@ -128,9 +144,15 @@ div#main_top table.contentpaneopen{
 }
 div#main_top table.contentpaneopen td{
 	color:#333333;
+        margin-left: 120px;
+        margin-top: 70px;
+
 }
 div#main_top table.contentpaneopen td a:link, div#main_top table.contentpaneopen td a:hover{
 	color:#777777;
+        margin-left: 120px;
+        margin-top: 70px;
+
 }
 
 .search {
