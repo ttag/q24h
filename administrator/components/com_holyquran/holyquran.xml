@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+    <name>Holy Quran</name>
+    <creationDate>10/11/2010</creationDate>
+    <author>Khawaib Ahmed</author>
+    <authorEmail>khawaib@khawaib.co.uk</authorEmail>
+    <authorUrl>www.khawaib.co.uk</authorUrl>
+    <copyright>Copyright © 2009 - All rights reserved.</copyright>
+    <license>GNU/GPL</license>
+    <version>1.5.x.1.1</version>
+    <description></description>
+    
+    <!-- installation part -->
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">install.mysql.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+        </sql>
+    </uninstall>
+    <installfile>install.holyquran.php</installfile>
+    <uninstallfile>uninstall.holyquran.php</uninstallfile>
+
+    <!-- user part -->
+    <files folder="components/com_holyquran">
+        <folder>controllers</folder>
+        <folder>images</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <filename>controller.php</filename>
+        <filename>index.html</filename>
+        <filename>router.php</filename>
+        <filename>holyquran.php</filename>
+    </files>
+    <languages folder="language/en-GB">
+        <language tag="en-GB">en-GB.com_holyquran.ini</language>
+    </languages>
+
+    <!-- administration part -->
+    <administration>
+    <menu task="default" img="js/ThemeOffice/component.png">Holy Quran</menu>
+        <submenu>
+            <menu link="option=com_holyquran">Dashboard</menu>
+            <menu link="option=com_holyquran&amp;view=translations">Translations</menu>
+        </submenu>
+	    <files>
+	        <filename>holyquran.xml</filename>
+	    </files>
+	    <files folder="administrator/components/com_holyquran">
+            <folder>controllers</folder>
+            <folder>css</folder>
+            <folder>helpers</folder>
+            <folder>images</folder>
+            <folder>models</folder>
+            <folder>tables</folder>
+            <folder>uploads</folder>
+            <folder>views</folder>
+            <filename>index.html</filename>
+	        <filename>config.xml</filename>
+	        <filename>controller.php</filename>
+            <filename>holyquran.php</filename>
+	        <filename>install.holyquran.php</filename>
+	        <filename>uninstall.holyquran.php</filename>
+            <filename>install.mysql.sql</filename>
+            <filename>uninstall.mysql.sql</filename>
+	    </files>
+	    <languages folder="administrator/language/en-GB">
+	        <language tag="en-GB">en-GB.com_holyquran.menu.ini</language>
+	        <language tag="en-GB">en-GB.com_holyquran.ini</language>
+	    </languages>
+    </administration>
+    <params>
+        <param name="page_title" default="Holy Quran" />
+        <param name="hide_show_page_title" default="1" />
+        <param name="page_width" default="100%" />
+        <param name="quran_img_path" default="components/com_holyquran/images/quran.png" />
+        <param name="pimagew" default="200" />
+        <param name="pimageh" default="130" />
+        <param name="show_page_image" default="1" />
+        <param name="rowcolour1" default="#FFFFFF" />
+        <param name="rowcolour2" default="#FFFFFF" />
+        <param name="show_arabic" default="1" />
+        <param name="show_english_translation" default="1" />
+        <param name="show_urdu_translation" default="1" />
+        <param name="show_speaker_image" default="0" />
+        <param name="show_horizontal_line" default="1" />
+        <param name="show_pagination" default="1" />
+        <param name="show_search" default="1" />
+        <param name="show_filters" default="1" />
+    </params>
+</install>

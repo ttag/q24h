@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Index List View Layout.">
+		<message>
+			<![CDATA[Creates a menu item with link to a single page with index list of all sura and audio links for each Sura.]]>
+		</message>
+	</layout>
+	<state>
+	<params>
+		<param name="show_surah_num" type="radio" default="1" label="Show/Hide Surah Numbers" description="Show/Hide Surah Numbers.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_name_of_surah" type="radio" default="1" label="Show/Hide Names of Surahs" description="Show/Hide Names of Surahs.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_num_of_ayats" type="radio" default="1" label="Show/Hide Number of Ayats in Surah" description="Show/Hide Number of Ayats in Surah.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description=""></param>
+		<param name="show_al_ajmy" type="radio" default="1" label="Hide/Show Ahmad Ali Al-Ajmy audio links" description="Hide/Show Ahmad Ali Al-Ajmy audio links for Surahs.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_abdul_baset" type="radio" default="1" label="Hide/Show Ahmad Abdul Baset  audio links" description="Hide/Show Ahmad Abdul Baset  audio links for Surahs.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="show_al_efasy" type="radio" default="1" label="Hide/Show Ahmad Rashed al-Efasy audio links" description="Hide/Show Ahmad Rashed al-Efasy audio links for Surahs.">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+	</params>
+	</state>
+</metadata>

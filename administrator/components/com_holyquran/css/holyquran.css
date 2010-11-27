@@ -1,0 +1,9 @@
+
+
+/* -------------- View Styling -------------- */
+/* Admin - Dashboard */
+#cpanel.hqAdminCpanel {float:left; width:45%;}
+#hqAdminStats {float:right; width:55%;}
+#hqAdminStats dl.tabs dt.closed {border:1px solid #ccc;}
+#hqAdminStats dl.tabs dt.open {background:#fff;border:1px solid #ccc;border-bottom:1px solid #fff;}
+#hqAdminStats table.adminlist {width:100%;}

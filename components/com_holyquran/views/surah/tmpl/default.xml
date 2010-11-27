@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Single Chapter View Layout.">
+		<message>
+			<![CDATA[Creates a menu items with link to a single chapter (Choose chapter in parameters)]]>
+		</message>
+	</layout>
+	<state>
+		<url addpath="/administrator/components/com_quran/elements">
+			<param name="chapter" type="list" default="" label="Select Chapter" description="">
+				<option value="1">Chapter 1 - Al-Fatiha</option>
+				<option value="2">Chapter 2 - Al-Baqarah</option>
+				<option value="3">Chapter 3 - Al-'Imran</option>
+				<option value="4">Chapter 4 - An-Nisa</option>
+				<option value="5">Chapter 5 - Al-Ma'idah</option>
+				<option value="6">Chapter 6 - Al-An'am</option>
+				<option value="7">Chapter 7 - Al-A'raf</option>
+				<option value="8">Chapter 8 - Al-Anfal</option>
+				<option value="9">Chapter 9 - At-Taubah</option>
+				<option value="10">Chapter 10 - Yunus</option>
+				<option value="11">Chapter 11 - Hud</option>
+				<option value="12">Chapter 12 - Yusuf</option>
+				<option value="13">Chapter 13 - Ar-Ra'd</option>
+				<option value="14">Chapter 14 - Ibrahim</option>
+				<option value="15">Chapter 15 - Al-Hijr</option>
+				<option value="16">Chapter 16 - An-Nahl</option>
+				<option value="17">Chapter 17 - Al-Isra'</option>
+				<option value="18">Chapter 18 - Al-Kahf</option>
+				<option value="19">Chapter 19 - Maryam</option>
+				<option value="20">Chapter 20 - Ta-Ha</option>
+				<option value="21">Chapter 21 - Al-Anbiya</option>
+				<option value="22">Chapter 22 - Al-Hajj</option>
+				<option value="23">Chapter 23 - Al-Mu'minun</option>
+				<option value="24">Chapter 24 - An-Nur</option>
+				<option value="25">Chapter 25 - Al-Furqan</option>
+				<option value="26">Chapter 26 - Ash-Shu'ara</option>
+				<option value="27">Chapter 27 - An-Naml</option>
+				<option value="28">Chapter 28 - Al-Qasas</option>
+				<option value="29">Chapter 29 - Al-Ankabut</option>
+				<option value="30">Chapter 30 - Ar-Rum</option>
+				<option value="31">Chapter 31 - Luqman</option>
+				<option value="32">Chapter 32 - As-Sajdah</option>
+				<option value="33">Chapter 33 - Al-Ahzab</option>
+				<option value="34">Chapter 34 - Saba</option>
+				<option value="35">Chapter 35 - Fatir</option>
+				<option value="36">Chapter 36 - Ya-Sin</option>
+				<option value="37">Chapter 37 - As-Saffaat</option>
+				<option value="38">Chapter 38 - Saad</option>
+				<option value="39">Chapter 39 - Az-Zumar</option>
+				<option value="40">Chapter 40 - Ghafir</option>
+				<option value="41">Chapter 41 - Fussilat</option>
+				<option value="42">Chapter 42 - Ash-Shura</option>
+				<option value="43">Chapter 43 - Az-Zukhruf</option>
+				<option value="44">Chapter 44 - Ad-Dukhan</option>
+				<option value="45">Chapter 45 - Al-Jathiyah</option>
+				<option value="46">Chapter 46 - Al-Ahqaf</option>
+				<option value="47">Chapter 47 - Muhammad</option>
+				<option value="48">Chapter 48 - Al-Fath</option>
+				<option value="49">Chapter 49 - Al-Hujuraat</option>
+				<option value="50">Chapter 50 - Qaf</option>
+				<option value="51">Chapter 51 - Adh-Dhariyat</option>
+				<option value="52">Chapter 52 - At-Tur</option>
+				<option value="53">Chapter 53 - An-Najm</option>
+				<option value="54">Chapter 54 - Al-Qamar</option>
+				<option value="55">Chapter 55 - Ar-Rahman</option>
+				<option value="56">Chapter 56 - Al-Waqi'ah</option>
+				<option value="57">Chapter 57 - Al-Hadid</option>
+				<option value="58">Chapter 58 - Al-Mujadilah</option>
+				<option value="59">Chapter 59 - Al-Hashr</option>
+				<option value="60">Chapter 60 - Al-Mumtahana</option>
+				<option value="61">Chapter 61 - As-Saff</option>
+				<option value="62">Chapter 62 - Al-Jumu'ah</option>
+				<option value="63">Chapter 63 - Al-Munafiqun</option>
+				<option value="64">Chapter 64 - At-Taghabun</option>
+				<option value="65">Chapter 65 - At-Talaaq</option>
+				<option value="66">Chapter 66 - At-Tahrim</option>
+				<option value="67">Chapter 67 - Al-Mulk</option>
+				<option value="68">Chapter 68 - Al-Qalam</option>
+				<option value="69">Chapter 69 - Al-Haqqah</option>
+				<option value="70">Chapter 70 - Al-Ma'arij</option>
+				<option value="71">Chapter 71 - Nuh</option>
+				<option value="72">Chapter 72 - Al-Jinn</option>
+				<option value="73">Chapter 73 - Al-Muzzammil</option>
+				<option value="74">Chapter 74 - Al-Muddathir</option>
+				<option value="75">Chapter 75 - Al-Qiyamah</option>
+				<option value="76">Chapter 76 - Al-Insan</option>
+				<option value="77">Chapter 77 - Al-Mursalaat</option>
+				<option value="78">Chapter 78 - An-Naba</option>
+				<option value="79">Chapter 79 - An-Nazi'aat</option>
+				<option value="80">Chapter 80 - 'Abasa</option>
+				<option value="81">Chapter 81 - At-Takwir</option>
+				<option value="82">Chapter 82 - Al-Infitaar</option>
+				<option value="83">Chapter 83 - Al-Mutaffifin</option>
+				<option value="84">Chapter 84 - Al-Inshiqaq</option>
+				<option value="85">Chapter 85 - Al-Buruj</option>
+				<option value="86">Chapter 86 - At-Tariq</option>
+				<option value="87">Chapter 87 - Al-A'la</option>
+				<option value="88">Chapter 88 - Al-Ghaashiyah</option>
+				<option value="89">Chapter 89 - Al-Fajr</option>
+				<option value="80">Chapter 90 - Al-Balad</option>
+				<option value="91">Chapter 91 - Ash-Shams</option>
+				<option value="92">Chapter 92 - Al-Lail</option>
+				<option value="93">Chapter 93 - Ad-Duha</option>
+				<option value="94">Chapter 94 - Ash-Sharh</option>
+				<option value="95">Chapter 95 - At-Tin</option>
+				<option value="96">Chapter 96 - Al-'Alaq</option>
+				<option value="97">Chapter 97 - Al-Qadr</option>
+				<option value="98">Chapter 98 - Al-Baiyyinah</option>
+				<option value="99">Chapter 99 - Az-Zalzalah</option>
+				<option value="100">Chapter 100 - Al-'Aadiyaat</option>
+				<option value="101">Chapter 101 - Al-Qari'ah</option>
+				<option value="102">Chapter 102 - At-Takaathur</option>
+				<option value="103">Chapter 103 - Al-'Asr</option>
+				<option value="104">Chapter 104 - Al-Humazah</option>
+				<option value="105">Chapter 105 - Al-Fil</option>
+				<option value="106">Chapter 106 - Al-Quraish</option>
+				<option value="107">Chapter 107 - Al-Maa'un</option>
+				<option value="108">Chapter 108 - Al-Kauthar</option>
+				<option value="109">Chapter 109 - Al-Kaafirun</option>
+				<option value="100">Chapter 110 - An-Nasr</option>
+				<option value="111">Chapter 111 - Al-Masad</option>
+				<option value="112">Chapter 112 - Al-Ikhlaas</option>
+				<option value="113">Chapter 113 - Al-Falaq</option>
+				<option value="114">Chapter 114 - An-Naas</option>
+			</param>
+		</url>
+	</state>
+</metadata>

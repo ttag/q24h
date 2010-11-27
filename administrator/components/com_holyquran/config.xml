@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <params>
+  <param name="@spacer" type="spacer" default="Layout Options" label="" description=""></param>
+  <param name="hide_show_page_title" type="radio" default="1" label="Show/Hide page title" description="Hide or show a title on the top of the main page" >
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="page_title" type="text" size="50" default="Holy Quran" label="Page Title" description="Title of page to show" />
+
+  <param name="show_page_image" type="radio" default="1" label="Hide/Show Quran Image" description="Hides/Shows the image on site front page">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="quran_img_path" type="text" size="50" default="components/com_holyquran/images/quran.png" label="Quran Image Path" description="Image to show on page" />
+  <param name="pimagew" type="text" size="3" default="200" label="Width of Quran image" description="Width of Quran Image (default: 131)" />
+  <param name="pimageh" type="text" size="3" default="130" label="Height of Quran image" description="Height of Quran image (default: 130)" />
+
+  <param name="page_width" type="text" size="5" default="100%" label="Page table width" description="Width of page. i.e 200 or 70%." />
+  
+  <param name="rowcolour1" type="text" size="7" default="#FFFFFF" label="Background row color 1 (Hex code)" description="Hex code for  background color for row one" />
+  <param name="rowcolour2" type="text" size="7" default="#FFFFFF" label="Background row color 2 (Hex code)" description="Hex code for  background color for row two" />
+  
+  <param name="@spacer" type="spacer" default="" label="" description=""></param>
+  <param name="@spacer" type="spacer" default="Translations Options" label="" description=""></param>
+  <param name="show_arabic" type="radio" default="1" label="Show/Hide Arabic Ayats" description="Show/Hide Arabic Ayats">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_english_translation" type="radio" default="1" label="Show/Hide English Translation" description="Show/Hide English translation text">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_urdu_translation" type="radio" default="1" label="Show/Hide Urdu Translation" description="Show/Hide Urdu translation text">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_speaker_image" type="radio" default="0" label="Show/Hide Speaker Image" description="Show/Hide speaker image">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_horizontal_line" type="radio" default="1" label="Show/Hide Horizontal line separator" description="Show/Hide Horizontal line separator">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_pagination" type="radio" default="1" label="Show/Hide Pagination" description="Show/Hide pagination at bottom of page.">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+    
+  <param name="@spacer" type="spacer" default="" label="" description=""></param>
+  <param name="@spacer" type="spacer" default="Search and Filter Options" label="" description=""></param>
+  <param name="show_search" type="radio" default="1" label="Show/Hide search" description="Shows or hides search box.">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+  <param name="show_filters" type="radio" default="1" label="Show/Hide Filter dropdown boxes" description="Shows or hides the drop down boxes for Surah.">
+    <option value="0">Hide</option>
+    <option value="1">Show</option>
+  </param>
+</params>
+</config>

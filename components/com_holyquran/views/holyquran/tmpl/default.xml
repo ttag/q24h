@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Holy Quran Default Layout">
+		<message>
+			<![CDATA[HOLYQURAN DEFAULT LAYOUT DESCRIPTION]]>
+		</message>
+	</layout>
+	<state>
+		<name>Holy Quran Default Layout</name>
+		<description></description>
+        <url></url>
+		<params></params>
+		<advanced></advanced>
+	</state>
+</metadata>
