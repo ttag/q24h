@@ -75,28 +75,39 @@ div#top_menu{
 
 div#h_area{
 	margin:0px auto;
-	width: 963px;
+	width: 940px;
 	height: 50px;
 	text-align:left;
-	padding-left:15px;
-	padding-top: 20px;
+	padding-left:30px;
+	padding-top: 10px;
 }
 
 
 .logo{
 	display: block;
 	float:left;
-	padding-top:5px;
-	padding-left:5px;
-	width:600px;
+	padding-top:0px;
+	padding-left:0px;
+	width:400px;
 }
 a.logo,a.logo:link,a.logo:hover, a.logo:visited{
-	font-size:26px;
-	line-height: 58px;
-	color: #cbaa08;
+	font-size:12px;
+	line-height: 10px;
+	color: #52ab22;
 	text-decoration:none;
-	font-weight:bold;
-	font-family: Georgia, "Times New Roman", Times, sans-serif
+	font-weight:normal;
+	font-family: arial, verdana, sans-serif;
+
+}
+
+div#h_area_slogan {
+    	margin:0px auto;
+	width: 940px;
+	color: #52ab22;
+
+	padding-top:16px;
+	padding-left:0px;
+
 }
 
 

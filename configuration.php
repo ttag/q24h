@@ -50,7 +50,7 @@ class JConfig {
 	var $lifetime = '15';
 	var $session_handler = 'database';
 	var $password = '';
-	var $sitename = 'Quran24Hours';
+	var $sitename = 'Virtual Quran academy';
 	var $MetaDesc = 'Quran e-learning';
 	var $MetaKeys = 'Quran e-learning';
 	var $offline_message = 'This site is down for maintenance. Please check back again soon.';

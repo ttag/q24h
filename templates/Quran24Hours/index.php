@@ -29,8 +29,8 @@ margin-left: 0px;
 <jdoc:include type="modules" name="layout" style="rounded" />
 <?php endif; ?>	
 <?php include('functions.php'); ?>
-<div id="h_area"><?php if($this->params->get('hideLogo') == 0) : ?><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo<?php echo $this->params->get('logoVariation'); ?>.png" alt="company logo" align="left" /><?php endif; ?><a href="index.php" class="logo" title="Home"><?php echo $mainframe->getCfg('sitename') ;?></a><br clear="all" /></div>
-
+<div id="h_area"><?php if($this->params->get('hideLogo') == 0) : ?><img src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/logo<?php echo $this->params->get('logoVariation'); ?>.png" alt="company logo" align="left" /><?php endif; ?><br clear="all" /></div>
+<div id="h_area_slogan"> <a href="index.php" class="logo" title="Home"><?php echo $mainframe->getCfg('sitename') ;?></a></div>
 <?php if($this->params->get('hideBannerArea') == 0) : ?>
 	<?php if((JRequest::getVar('view') != 'frontpage' and $this->params->get('hideBannerAreaInternal') == 0) or JRequest::getVar('view') == 'frontpage') : ?>
         <div id="main_top" class="banner"><jdoc:include type="modules" name="top" /></div>
