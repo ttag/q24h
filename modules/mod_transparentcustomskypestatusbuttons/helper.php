@@ -42,7 +42,7 @@ $skype_pngs_directory = JURI::base().$skype_pngs;
 
 //Set up the result style and extra info
 //Alignment
-$skype_render = '<div style="text-align: '.$skype_style.';">';
+$skype_render = '<div style="text-align: '.$skype_style.';width: 90px;margin-left: 830px  ">';
 
 //Pre text if added - added a <br/> in case left off
 if ($skype_stext <>""){
