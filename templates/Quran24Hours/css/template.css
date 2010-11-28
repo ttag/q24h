@@ -56,14 +56,20 @@ img { border: 0 none; margin:0px; }
 div#top_menu{
 	height:49px;
 	margin:0px auto;
-	width: 978px;
+	width: 840px;
+        padding-left:10px;
+	padding-top: 30px;
+        float: left;
+
+
 }
 
-#topnav{ float:left; height: 49px; width:976px; margin: 0px; padding:0px; font-weight: bold; border-left:1px solid #91A200; border-right:1px solid #91A200; border-top:1px solid #91A200; }
+#topnav{ float:right; height: 49px; width:auto; margin: 0px; padding:0px; font-weight: bold; text-align:center;}
 #topnav ul { margin: 0px 0px 0px 11px; padding: 0; width: auto; float: left; list-style-type:none; }
-#topnav ul li{ margin: 0; padding: 0; height: 49px; float: left; position: relative; }
-#topnav ul li a{ color: #FFFFFF; font-weight: bold; text-decoration: none; padding: 13px 10px 0px 10px; height:36px; display: block; float: left; }
-#topnav ul li a:hover{ background-color: #444444; text-decoration: none; font-weight: bold; color: #fff; }
+#topnav ul li{ margin: 0; padding: 0; height: 100px; float: left; position: relative; }
+/* change color of menu name text */
+#topnav ul li a{ color: #073807; font-family: sans-serif,arial;font-weight: bold; text-decoration: none; padding: 13px 10px 0px 10px; width:97px;height:25px; display: block; float: left; background-image: url(../images/yellow/top_menu_bg.png)}
+#topnav ul li a:hover{ background-color: #67a23d; text-decoration: none; font-weight: bold; color: #fff; }
 #topnav ul li ul ul { margin: -50px 0 0 297px; z-index: 100; }
 #topnav ul li li { width:auto; height: 35px; }
 #topnav ul li li a { color: #000000; text-transform: none; display: block; background: none; width: 277px; border-top: 1px solid #DDDDDD; border-left: 0px; padding: 9px 10px 6px 10px; height:20px; }
@@ -102,13 +108,15 @@ a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 
 div#h_area_slogan {
     margin:0px auto;
-	width: 1000px;
-	color: #52ab22;
+/*	width: 800px;
+*/
+width:1020px;
+color: #52ab22;
       /*  margin-left: 162px; */
 
-	padding-top:51px;
-	padding-left:222px;
-
+	padding-top:50px;
+	padding-left:245px;
+        
 }
 
 div#h_area_logo {
@@ -121,9 +129,9 @@ div#h_area_logo {
 
 div#start_trial {
     	margin:0px auto;
-	width: 9px;
+	width: 300px;
         padding-top:0px;
-	padding-left:730px;
+        float: right;
 
       /* margin-left: 980px; */
         
@@ -146,14 +154,12 @@ div#main_top{
 
 div#main_top div.woo_class_joomla_1{
 	padding:0px;
-	margin-top:90px;
-	padding-left:10px;
 	width:400px;
 	height:160px;
 	text-align:left;
 	float:left;
-	margin-left: 120px;
-	margin-top: 70px;
+	margin-left: 80px;
+	margin-top: 30px;
 }
 
 
