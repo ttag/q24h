@@ -75,7 +75,7 @@ div#top_menu{
 
 div#h_area{
 	margin:0px auto;
-	width: 940px;
+	width: 1000px;
 	height: 0px;
 	text-align:left;
 	padding-left:30px;
@@ -101,23 +101,31 @@ a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 }
 
 div#h_area_slogan {
-    	margin:0px auto;
-	width: 90px;
+    margin:0px auto;
+	width: 1000px;
 	color: #52ab22;
-        margin-left: 162px;
+      /*  margin-left: 162px; */
 
-	padding-top:50px;
+	padding-top:51px;
+	padding-left:222px;
+
+}
+
+div#h_area_logo {
+
+	padding-top:0px;
 	padding-left:0px;
 
 }
 
 
-
 div#start_trial {
     	margin:0px auto;
-	width: 90px;
+	width: 9px;
+        padding-top:0px;
+	padding-left:730px;
 
-        margin-left: 980px;
+      /* margin-left: 980px; */
         
 }
 div#main_bg{
