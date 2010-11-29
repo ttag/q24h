@@ -54,12 +54,12 @@ img { border: 0 none; margin:0px; }
 }
 
 div#top_menu{
-	height:49px;
+	height:auto;
 	margin:0px auto;
 	width: 840px;
         padding-left:10px;
 	padding-top: 30px;
-        float: left;
+        
 
 
 }
@@ -131,9 +131,9 @@ div#start_trial {
     	margin:0px auto;
 	width: 300px;
         padding-top:0px;
-        float: right;
+      /*  float: right;
 
-      /* margin-left: 980px; */
+       margin-left: 980px; */
         
 }
 div#main_bg{
