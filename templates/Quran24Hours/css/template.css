@@ -94,7 +94,7 @@ div#h_area{
 	float:left;
 	padding-top:0px;
 	padding-left:0px;
-	width:400px;
+	width:300px;
 }
 a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 	font-size:12px;
@@ -110,7 +110,7 @@ div#h_area_slogan {
     margin:0px auto;
 /*	width: 800px;
 */
-width:70px;
+width:755px;
 color: #52ab22;
       /*  margin-left: 162px; */
 
@@ -120,9 +120,14 @@ color: #52ab22;
 }
 
 div#h_area_logo {
-    width:978px;
+/*    width:970px;
 	padding-top:0px;
-	padding-left:0px;
+	padding-left:0px;*/
+
+        margin:0px auto;
+	padding:0px;
+	width: 970px;
+     
 
 }
 
@@ -149,7 +154,7 @@ div#main_top{
 	margin:0px auto;
 	padding:0px;
 	width: 978px;
-	height: 250px;
+	height: 182px;
 }
 
 div#main_top div.woo_class_joomla_1{
