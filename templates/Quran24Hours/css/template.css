@@ -108,15 +108,23 @@ a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 
 div#h_area_slogan {
     margin:0px auto;
-/*	width: 800px;
-*/
-width:755px;
-color: #52ab22;
-      /*  margin-left: 162px; */
+    width:755px;
+        color: #52ab22;
+
 
 	padding-top:50px;
 	padding-left:0px;
         
+}
+
+div#start_trial {
+    	margin:0px auto;
+	width: 100px;
+        padding:0px;
+      /*  float: right;
+
+       margin-left: 980px; */
+
 }
 
 div#h_area_logo {
@@ -132,15 +140,7 @@ div#h_area_logo {
 }
 
 
-div#start_trial {
-    	margin:0px auto;
-	width: 300px;
-        padding-top:0px;
-      /*  float: right;
 
-       margin-left: 980px; */
-        
-}
 div#main_bg{
 	margin:0px auto;
 	width: 976px;
