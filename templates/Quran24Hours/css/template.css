@@ -110,17 +110,17 @@ div#h_area_slogan {
     margin:0px auto;
 /*	width: 800px;
 */
-width:978px;
+width:70px;
 color: #52ab22;
       /*  margin-left: 162px; */
 
 	padding-top:50px;
-	padding-left:225px;
+	padding-left:0px;
         
 }
 
 div#h_area_logo {
-
+    width:978px;
 	padding-top:0px;
 	padding-left:0px;
 
