@@ -33,7 +33,7 @@ margin-left: 0px;
 <div id="h_area_logo"> <img align="left" src="templates/Quran24Hours/images/logo.png"/>
   <div id="start_trial"> <img align="left" src="templates/Quran24Hours/images/start_trial.jpg"/> </div> 
 <div id="h_area_slogan"> <a href="index.php" class="logo" title="Home"><?php echo $mainframe->getCfg('sitename') ;?></a></div>
-<!--> <div id="start_trial"> <img align="left" src="templates/Quran24Hours/images/start_trial.jpg"/> </div> <!-->
+
 </div>
 
 
