@@ -1,12 +1,12 @@
 @charset "utf-8";
 /*** blue ***/
 a:link, a:visited {
-	color: #40a03e;
+	color: #12a00f;
 	text-decoration:underline;
 }
 
 a:hover {
-	color: #40a03e;
+	color: #12a00f;
 	text-decoration:none;
 }
 
