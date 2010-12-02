@@ -155,7 +155,10 @@ div#main_top{
 	padding:0px;
 	width: 978px;
 	height: 182px;
+
 }
+
+#main_top ul li a{ color: #073807; font-family: sans-serif,arial;font-weight: bold; text-decoration: none; padding: 13px 10px 0px 10px; width:97px;height:25px; display: block; float: left; }
 
 div#main_top div.woo_class_joomla_1{
 	padding:0px;
