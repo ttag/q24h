@@ -79,6 +79,34 @@ div#top_menu{
 #topnav ul li:hover ul, #topnav ul li li:hover ul, #topnav ul li li li:hover ul { left: auto; }
 
 
+
+
+#main_top{ height: auto; width:auto; margin: 0px; padding:0px;
+
+}
+
+#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: auto; padding:0; padding-left: 635px; padding-top: 60px;
+
+
+
+}
+/*#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: auto; list-style-type:none; }*/
+#main_top ul li{ margin: 0; height: auto; list-style-type:none; padding-top: 0px;
+
+-moz-transform:rotate(-270deg);
+-moz-transform-origin: bottom left;
+-webkit-transform: rotate(-270deg);
+-webkit-transform-origin: bottom left;
+-o-transform: rotate(-270deg);
+-o-transform-origin: bottom left;
+
+ 
+}
+
+#main_top ul li a{ color: #073807; font-family: arial;font-size: 8px; text-decoration: none;}
+
+#topnav ul li a:hover{ background-color: #67a23d; text-decoration: none; color: #fff; }
+
 div#h_area{
 	margin:0px auto;
 	width: 978px;
@@ -158,7 +186,9 @@ div#main_top{
 
 }
 
-#main_top ul li a{ color: #073807; font-family: sans-serif,arial;font-weight: bold; text-decoration: none; padding: 300px 500px 200px 200px; width:auto;height:auto; display: block; float: left; }
+
+
+
 
 div#main_top div.woo_class_joomla_1{
 	padding:0px;

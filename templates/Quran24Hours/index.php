@@ -40,12 +40,13 @@ margin-left: 0px;
 <div id="top_menu"><div id="topnav"><?php $hmenu->genHMenu (0); ?></div><br clear="all" /></div>
 <?php if($this->params->get('hideBannerArea') == 0) : ?>
 	<?php if((JRequest::getVar('view') != 'frontpage' and $this->params->get('hideBannerAreaInternal') == 0) or JRequest::getVar('view') == 'frontpage') : ?>
-        <div id="main_top" class="banner"><jdoc:include type="modules" name="top" />
-<!--                <ul class="menu_top">
-            <a id="menu_top" href="" >
-            link hereeeee
-            </a>
-        </ul> !-->
+        <div id="main_top" class="banner" ><jdoc:include type="modules" name="top" />
+         <ul class="menu_top"> 
+            <li id="menu_top" >
+                <a>
+                Email: info@Quran24Hours.com</a>
+          </li>
+        </ul> 
         </div>
     <?php endif; ?>	
 <?php endif; ?>	
