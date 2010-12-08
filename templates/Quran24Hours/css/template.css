@@ -91,14 +91,13 @@ div#top_menu{
 
 }
 /*#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: auto; list-style-type:none; }*/
-#main_top ul li{ margin: 0; height: auto; list-style-type:none; padding-top: 0px;
-
--moz-transform:rotate(-270deg);
--moz-transform-origin: bottom left;
--webkit-transform: rotate(-270deg);
--webkit-transform-origin: bottom left;
--o-transform: rotate(-270deg);
--o-transform-origin: bottom left;
+#main_top ul li{
+    margin: 0;
+    height: 100px;
+    width: auto;
+    list-style-type:none;
+    padding-top: 0px;
+     background: #073807 no-repeat;
 
  
 }
@@ -185,8 +184,6 @@ div#main_top{
 	height: 182px;
 
 }
-
-
 
 
 

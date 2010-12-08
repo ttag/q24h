@@ -43,8 +43,10 @@ margin-left: 0px;
         <div id="main_top" class="banner" ><jdoc:include type="modules" name="top" />
          <ul class="menu_top"> 
             <li id="menu_top" >
-                <a>
-                Email: info@Quran24Hours.com</a>
+                
+                <a href="http://www.Quran24Hours.com" >
+                    <img align="left" src="templates/Quran24Hours/images/skype.png" alt="Quran24Hours" title="Skype: Quran24Hours"/>
+                </a>
           </li>
         </ul> 
         </div>
