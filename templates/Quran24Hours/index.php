@@ -42,7 +42,47 @@ margin-left: 0px;
 	<?php if((JRequest::getVar('view') != 'frontpage' and $this->params->get('hideBannerAreaInternal') == 0) or JRequest::getVar('view') == 'frontpage') : ?>
         <div id="main_top" class="banner" ><jdoc:include type="modules" name="top" />
 
-            <div id="menu_top_contactus" >
+            <div style="padding-top: 42px;padding-left: 644px">
+
+
+                <table border="0" width="250">
+<tr>
+<td>
+                <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
+                    <img align="left" src="templates/Quran24Hours/images/skype.png" alt="Quran24Hours" title="Skype: Quran24Hours"/>
+                </a>
+</td>
+<td rowspan="3">
+                <a href="index.php?option=com_content&view=article&id=54&Itemid=57" >
+                    <img align="left" src="templates/Quran24Hours/images/select_course.png" alt="Quran24Hours" title="Select course(s)"/>
+                </a>
+</td>
+
+</tr>
+
+<tr>
+<td>
+                <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
+                    <img align="left" src="templates/Quran24Hours/images/email.png" alt="email: info@Quran24Hours.com" title="email: info@Quran24Hours.com"/>
+                </a>
+</td>
+
+</tr>
+
+<tr>
+<td>
+           <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
+                    <img align="left" src="templates/Quran24Hours/images/cell_number.png" alt="0092 313 9102009" title="0092 313 9102009"/>
+                </a>
+</td>
+
+</tr>
+</table>
+            
+
+                  
+            </div>
+<!-->            <div id="menu_top_contactus" >
                  
 
                 <ul id="main_top">
@@ -89,7 +129,7 @@ margin-left: 0px;
          </ul> 
             </div>
 
-              
+<!-->
 
         </div>
 
