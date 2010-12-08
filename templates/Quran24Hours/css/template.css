@@ -77,34 +77,53 @@ div#top_menu{
 #topnav ul li ul { left: -999em; top: 49px; left: 0; display: block; height: 36px; width: 277px; position: absolute; z-index: 99; left: -999em; clear: left; margin-top: 0px; margin-left: 0px; }
 #topnav ul li:hover ul ul, #topnav ul li:hover ul ul ul { left: -999em; }
 #topnav ul li:hover ul, #topnav ul li li:hover ul, #topnav ul li li li:hover ul { left: auto; }
+#topnav ul li a:hover{ background-color: #67a23d; text-decoration: none; color: #fff; }
 
 
 
-
-#main_top{ height: auto; width:auto; margin: 0px; padding:0px;
-
+#main_top{ height: 50px; width:50px; margin: 0px; padding:0px;
 }
 
-#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: auto; padding:0; padding-left: 635px; padding-top: 60px;
-
-
-
+#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: 50px; padding:0; padding-left: 640px; padding-top: 45px;
 }
 /*#main_top ul { margin: 0px 0px 0px 0px; padding: 0; width: auto; list-style-type:none; }*/
 #main_top ul li{
+
     margin: 0;
-    height: 100px;
-    width: auto;
+    height: 45px;
+    width: 50px;
     list-style-type:none;
     padding-top: 0px;
      background: #073807 no-repeat;
-
- 
 }
 
-#main_top ul li a{ color: #073807; font-family: arial;font-size: 8px; text-decoration: none;}
 
-#topnav ul li a:hover{ background-color: #67a23d; text-decoration: none; color: #fff; }
+div#menu_top_contactus{
+	margin:0px auto;
+	padding:0px;
+	width: 978px;
+	height: 182px;
+}
+
+div#main_top_select_courses{
+			margin:0px auto;
+	padding:0px;
+	width: 978px;
+	height: 182px;
+}
+
+#main_top_slect_courses ul { margin: 0px 0px 0px 0px; padding: 0; width: 50px; padding:0; padding-left: 700px; padding-top: 0px;}
+#main_top_slect_courses ul li{
+
+    margin: 0;
+    height: 45px;
+    width: 50px;
+    list-style-type:none;
+    padding-top: 0px;
+/*     background: #073807 no-repeat;*/
+}
+
+
 
 div#h_area{
 	margin:0px auto;
@@ -196,6 +215,8 @@ div#main_top div.woo_class_joomla_1{
 	margin-left: 40px;
 	margin-top: 30px;
 }
+
+
 
 
 
