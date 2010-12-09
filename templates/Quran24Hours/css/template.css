@@ -56,9 +56,9 @@ img { border: 0 none; margin:0px; }
 div#top_menu{
 	height:auto;
 	margin:0px auto;
-	width: 840px;
+	width: 930px;
         padding-left:10px;
-	padding-top: 30px;
+	padding-top: 25px;
         
 
 
@@ -154,7 +154,7 @@ a.logo,a.logo:link,a.logo:hover, a.logo:visited{
 
 div#h_area_slogan {
     margin:0px auto;
-    width:755px;
+    width:20px;
         color: #52ab22;
 
 
@@ -180,7 +180,7 @@ div#h_area_logo {
 
         margin:0px auto;
 	padding:0px;
-	width: 970px;
+	width: 0px;
      
 
 }
