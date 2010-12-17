@@ -6,7 +6,7 @@ defined('_JEXEC') or die('Restricted access');
 require_once JPATH_COMPONENT.DS.'controller.php';
 
 //Define constants for all pages
-define( 'COM_HOLYQURAN_VERSION_LINK', '<a href="http://www.khawaib.co.uk/index.php?option=com_content&amp;Itemid=29&amp;catid=12&amp;id=40&amp;lang=en&amp;view=article" target="_blank">Holy Quran 1.5.x.1.1</a>' );
+define( 'COM_HOLYQURAN_VERSION_LINK', '<a href="http://www.khawaib.co.uk/index.php?option=com_content&amp;Itemid=29&amp;catid=12&amp;id=40&amp;lang=en&amp;view=article" target="_blank"></a>' );
 
 // Initialize the controller
 $controller = new HolyquranController();
