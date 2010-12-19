@@ -77,54 +77,6 @@ margin-left: 0px;
 
                   
             </div>
-<!-->            <div id="menu_top_contactus" >
-                 
-
-                <ul id="main_top">
-            <li id="main_top" >
-
-                <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
-                    <img align="left" src="templates/Quran24Hours/images/skype.png" alt="Quran24Hours" title="Skype: Quran24Hours"/>
-                </a>
-
-                <li id="main_top" >
-
-                <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
-                    <img align="left" src="templates/Quran24Hours/images/email.png" alt="info@Quran24Hours.com" title="email: info@Quran24Hours.com"/>
-                </a>
-          </li>
-           </li>
-
-
-
-         </ul>
-
-         </div>
-
-                                        <div id="main_top_select_courses">
-<ul id="main_top_slect_courses">
-            <li id="main_top_slect_courses" >
-
- <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
-<img align="left" src="templates/Quran24Hours/images/select_course.png" alt="Quran24Hours" title="Skype: Quran24Hours"/>
-</a>
-
-                
-
-                <li id="main_top_slect_courses" >
-
-                <a href="index.php?option=com_contact&view=contact&id=1&Itemid=61" >
-                    <img align="left" src="templates/Quran24Hours/images/email.png" alt="info@Quran24Hours.com" title="email: info@Quran24Hours.com"/>
-                </a>
-          </li>
-           </li>
-
-
-
-         </ul> 
-            </div>
-
-<!-->
 
         </div>
 
